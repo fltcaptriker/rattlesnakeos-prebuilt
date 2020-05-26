@@ -6,5 +6,6 @@ LOCAL_SRC_FILES := HardwarInfo.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PACKAGE_NAME := com.google.android.hardwareinfo
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := PRESIGNED
 
 include $(BUILD_PREBUILT)
